@@ -18,6 +18,7 @@
     </tr>
   </thead>
   <tbody>
+<!-- Looping over Categories !-->
     <tr v-for="category in categories" :key="category.id">
       <td data-label="branche"> <b>{{category.branche}}</b></td>
       <td data-label="unbearbeitet">{{category.unbearbeitet}}</td>

@@ -1,15 +1,19 @@
 <template>
-  <div class="">
+<!-- Main Layout of the App !-->
+  <div>
+
   <div class="wrap">
   <p>Zugewiesene Branchen</p>
   </div>
   <div class="wrap">
   
+<!-- Categories Component !-->
 <div class="searchBar">
 <Categories @save="getCategories($event)"></Categories>
 </div>
 </div>
 
+<!-- DataTable Component !-->
 <div   class="wrap">
   <div class="dataTable big">
    <DataTable :categories="selected"></DataTable>
