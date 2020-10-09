@@ -35,6 +35,19 @@ class CategoriesController extends Controller
                 'termine'=> 10,
                 'kunden'=> 0,
                 'blacklist'=> 95
+            ),
+            array(
+                'id'=> 3,
+                'branche'=> 'restaurant',
+                'unbearbeitet'=>  10,
+                'gf'=> 0,
+                'nicht'=> 0, 
+                'wiedervorlage'=> 55,
+                'kein'=> 17,
+                'zu'=> 0,
+                'termine'=> 19,
+                'kunden'=> 5,
+                'blacklist'=> 100
             )
           );
           return json_encode($data);

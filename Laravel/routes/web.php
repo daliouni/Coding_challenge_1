@@ -16,9 +16,7 @@ use App\Http\Controllers\CategoriesController;
 Route::get('/', function () {
     return view('welcome');
 });
-route::get('/categories',function($data){
-    return Response::json(array('branche' => 'jhkjjhk ','gf' => 404));}
-);
+
 
 Route::get('/categories', [CategoriesController::class,'show']);
     
